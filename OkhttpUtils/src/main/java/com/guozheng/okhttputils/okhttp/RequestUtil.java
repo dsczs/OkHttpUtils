@@ -245,9 +245,6 @@ class RequestUtil {
         }
     }
 
-
-
-
     void execute(){
         mOkHttpClient.newCall(mOkHttpRequest).enqueue(new Callback() {
             @Override
@@ -265,9 +262,6 @@ class RequestUtil {
 
         });
     }
-
-
-
 
     /**
      * 自定义RequestBody类，得到文件上传的进度
